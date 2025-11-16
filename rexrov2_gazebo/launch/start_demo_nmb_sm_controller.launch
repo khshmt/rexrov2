@@ -14,7 +14,7 @@
 
     <include file="$(find uuv_gazebo_worlds)/launch/empty_underwater_world.launch"/>
 
-    <include file="$(find uuv_simulation_wrapper)/launch/unpause_simulation.launch">
+    <include file="$(find uuv_assistants)/launch/unpause_simulation.launch">
         <arg name="timeout" value="5"/>
     </include>
 
